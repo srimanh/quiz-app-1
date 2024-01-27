@@ -1,0 +1,135 @@
+body{
+  background-color: rgb(87, 4, 150);
+}
+.homepage{
+  position: relative;
+  top: 320px;
+}
+h1{
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+button{
+  background-color: rgb(123, 197, 12);
+  border-radius: 15px;
+  font-size: 0.8rem;
+  color: white;
+  padding: 5px 75px 5px 75px;
+  position: relative;
+  left: 44%;
+}
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: white;
+  height: 90vh;
+  width: 1200px;
+}
+.container h1{
+  position: relative;
+  top: 50px;
+  color: black;
+  font-size: 2rem;
+}
+.texts p{
+  position: relative;
+  top: 70px;
+  left: 30px;
+}
+#question{
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+#ele{
+  padding-left: 210px;
+}
+.options{
+  position: relative;
+  right: 500px;
+}
+.options button{
+  position: relative;
+  top: 150px;
+  padding: 13px 235px 13px 235px;
+  background-color: rgb(0, 157, 219);
+  border: none;
+  margin-top: 30px;
+  margin-left: 30px;
+  border-radius: 25px;
+}
+.buttons{
+  position: relative;
+  top: 300px;
+  right: 270px;
+}
+.buttons button{
+  border: none;
+  border-radius: 0px;
+  margin-left: 30px;
+  text-align: center;
+  color: black;
+}
+.prev{
+  background-color: rgb(103, 87, 116);
+}
+.next{
+  background-color: green;
+}
+.quit{
+  background-color: red;
+}
+h2{
+  color: green;
+  text-align: center;
+  font-size: 2.2rem;
+}
+.description{
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: 750px;
+  background-color: white;
+}
+#feedback{
+  padding-top: 40px;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 1.5rem;
+}
+h3{
+  font-size: 2.5rem;
+  color: blue;
+  text-align: center;
+}
+span{
+  position: relative;
+  left: 680px;
+  bottom: 32px;
+  font-weight: bolder;
+}
+.insight p{
+  font-weight: bolder;
+  position: relative;
+  left: 30px;
+}
+.buttons2{
+  position: relative;
+  right: 130px;
+  top: 50px;
+}
+.buttons2 button:first-child{
+  border: 1px solid blueviolet;
+  border-radius: 0px;
+  background-color: white;
+  color: blueviolet;
+}
+.buttons2 button:nth-child(2){
+  border: 1px solid green;
+  border-radius: 0px;
+  background-color: white;
+  color: green;
+}
